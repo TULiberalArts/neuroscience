@@ -23,9 +23,9 @@ keywords: highered, university, philadelphia, Temple, neuroscience programs
 
 # Address
 address: 
-  building: 1801 
+  building: 
   room: 
-  street: North Broad Street
+  street: 1801 North Broad Street
   city: Phialdelphia, PA 19122
   email: no-reply@temple.edu
 
