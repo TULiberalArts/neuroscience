@@ -17,15 +17,15 @@ palette: light #future feature
 # Short tagline for tweets (<100 characters)
 tagline: This is our life's work
 # Longer descriptions for link previews (<250 characters)
-description: 'The Philadelphia Federal Statistical Research Data Center (PFSRDC) is a secure computer lab located at the Philadelphia Federal Reserve through which qualified researchers with approved projects can access restricted data residing on Census Bureau servers.'
+description: 'The field of neuroscience is constantly expanding and exciting advancements are being made constantly. As such, Temple University supports an interdisciplinary approach to this field of study. More information can be found at the by following the links to each college's neuroscience program.'
 # List of related keywords for search engines
 keywords: highered, college, university, philadelphia, Temple, data, microdata, big data, research
 
 # Address
 address:
-  building: Anderson Hall
-  room: 12th Floor
-  street: 1114 Polett Walk
+  building: 
+  room: 
+  street: 
   city: Phialdelphia, PA 19122
   email: no-reply@temple.edu
 
@@ -43,11 +43,11 @@ college:
 social:
   # Facebook - https://facebook.com/USERNAME
   # if your page does not have a custom URL, create one!
-  facebook: TempleLiberalArts
+  facebook: TempleU
   # Twitter - https://twitter.com/USERNAME
-  twitter: TULiberalArts
+  twitter: TempleUniv
   # Instagram - https://www.instagram.com/USERNAME
-  instagram: TULiberalArts
+  instagram: TempleUniv
   # Snapchat - USERNAME
   snapchat:
   # GitHub - https://github.com/USERNAME or https://github.com/USERNAME/REPO
