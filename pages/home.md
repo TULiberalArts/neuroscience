@@ -11,7 +11,7 @@ description: >-
 keywords: 'Temple, neurosience program'
 # custom variables
 feature: true
-feature-image: hero_Neuroscience.png
+feature-image: media/hero_Neuroscience.png
 ---
 ## Discover Your Inner Passion through our Exciting Neuroscience Programs
 The field of neuroscience is constantly expanding and exciting advancements are being made constantly. As such, Temple University supports an interdisciplinary approach to this field of study. More information can be found below by following the links to each college's neuroscience program.
