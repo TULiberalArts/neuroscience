@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+# Temple Neuroscience
 
-You can use the [editor on GitHub](https://github.com/TULiberalArts/temple-neuro/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+[![Build Status][travis-img]][travis]
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Temple Neuroscience is statically generated with [Jekyll](https://jekyllrb.com) and hosted by [The College of Liberal Arts](https://liberalarts.temple.edu) at [Temple University](https://temple.edu).
 
-### Markdown
+## Content Structure
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+| Directory |  |
+| --- | --- |
+| ````_data/faculty.yaml```` | Datafile for list of faculty. |
+| ````_data/navigation.yaml```` | Datafile for primary   navigation links. |
+| ````pages/*```` | Page content, in ````.md```` or ````.html```` format. |
+| ````media/*```` | Images, pdfs, and other uploaded static content. |
+| ````_config.yml```` | Site configuration options. |
 
-```markdown
-Syntax highlighted code block
+## Contributing
 
-# Header 1
-## Header 2
-### Header 3
+If you discover typographic errors, bugs, or have problems navigating this site please consider [opening a new issue][issue]. A brief summary of the problem along with suggestions for improvement are welcome.
 
-- Bulleted
-- List
+[Pull requests][pr] are also welcome if you would like to contribute or edit page content. [Prose.io][prose] is a quick and convenient way to edit content in [Markdown][md].
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/TULiberalArts/temple-neuro/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[travis]: https://travis-ci.org/TULiberalArts/Temple-Neuroscience
+[travis-img]: https://travis-ci.org/TULiberalArts/Temple-Neuroscience.svg?branch=master
+[jekyll]: https://https://jekyllrb.com
+[issue]: https://github.com/TULiberalArts/Temple-Neuroscience/issues
+[pr]: https://help.github.com/articles/about-pull-requests/
+[prose]: https://prose.io/#TULiberalArts/Temple-Neuroscience
+[md]: http://whatismarkdown.com/
