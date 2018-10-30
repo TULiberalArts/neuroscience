@@ -43,11 +43,11 @@ college:
 social:
   # Facebook - https://facebook.com/USERNAME
   # if your page does not have a custom URL, create one!
-  facebook:
+  facebook: TempleLiberalArts
   # Twitter - https://twitter.com/USERNAME
-  twitter: 
+  twitter: TULiberalArts
   # Instagram - https://www.instagram.com/USERNAME
-  instagram: 
+  instagram: TULiberalArts
   # Snapchat - USERNAME
   snapchat:
   # GitHub - https://github.com/USERNAME or https://github.com/USERNAME/REPO
