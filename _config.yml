@@ -17,15 +17,15 @@ palette: light #future feature
 # Short tagline for tweets (<100 characters)
 tagline: This is our life's work
 # Longer descriptions for link previews (<250 characters)
-description: 'The field of neuroscience is constantly expanding and exciting advancements are being made constantly. As such, Temple University supports an interdisciplinary approach to this field of study. More information can be found at the by following the links to each college's neuroscience program.'
+description: 'The field of neuroscience is constantly expanding and exciting advancements are being made constantly. Temple University supports an interdisciplinary approach to this field of study.'
 # List of related keywords for search engines
 keywords: highered, university, philadelphia, Temple, neuroscience programs
 
 # Address
-address:
+address: 1801 
   building: 
   room: 
-  street: 
+  street: North Broad Street
   city: Phialdelphia, PA 19122
   email: no-reply@temple.edu
 
