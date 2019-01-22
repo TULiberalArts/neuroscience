@@ -4,7 +4,7 @@ layout: uni_tla_header
 permalink: /
 published: true
 # meta-data variables
-title: home
+title: Temple Neuroscience
 description: >-
   The field of neuroscience is constantly expanding and exciting advancements are being made constantly.
   As such, Temple University supports an interdisciplinary approach to this field of study.
