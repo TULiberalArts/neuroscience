@@ -1,12 +1,12 @@
 ---
 # global predefined variables
-layout: tla_home2
+layout: uni_tla_header
 permalink: /
 published: true
 # meta-data variables
 title: home
 description: >-
-  The field of neuroscience is constantly expanding and exciting advancements are being made constantly. 
+  The field of neuroscience is constantly expanding and exciting advancements are being made constantly.
   As such, Temple University supports an interdisciplinary approach to this field of study.
 keywords: 'Temple, neurosience program'
 # custom variables
