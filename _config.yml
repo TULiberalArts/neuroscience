@@ -12,6 +12,7 @@ url: https://www.cla.temple.edu/temple-neuroscience
 # If you do not have access to 'tutheme', use 'minima' instead.
 theme: tutheme
 palette: light #future feature
+hide-faculty-list: true
 
 # Program Information
 # Short tagline for tweets (<100 characters)
@@ -22,9 +23,9 @@ description: 'The field of neuroscience is constantly expanding and exciting adv
 keywords: highered, university, philadelphia, Temple, neuroscience programs
 
 # Address
-address: 
-  building: 
-  room: 
+address:
+  building:
+  room:
   street: 1801 North Broad Street
   city: Phialdelphia, PA 19122
   email: no-reply@temple.edu
