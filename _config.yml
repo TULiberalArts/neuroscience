@@ -2,11 +2,11 @@
 # Program/Department Title
 title: Temple Neuroscience
 # Subdirectory (with / at only at beginning)
-baseurl: /temple-neuroscience
+baseurl: /neuroscience
 # Production domain (without / at the end)
-production: https://www.cla.temple.edu
+production: https://www.temple.edu
 # url spits sitemap
-url: https://www.cla.temple.edu/temple-neuroscience
+url: https://www.temple.edu/neuroscience
 
 # Development Config
 # If you do not have access to 'tutheme', use 'minima' instead.
