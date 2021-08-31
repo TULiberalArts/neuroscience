@@ -33,11 +33,6 @@ sass:
   sass_dir: _sass
   style: compressed
 timezone: UTC
-# collections:
-#  pages:
-#    title: Pages
-#    output: true
-#    layout: page
 permalink: /:title
 
 # Jekyll Ignore
