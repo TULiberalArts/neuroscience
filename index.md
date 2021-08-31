@@ -4,11 +4,12 @@ permalink: /
 published: true
 title: Temple Neuroscience
 description: >-
-  The field of neuroscience is constantly expanding and exciting advancements are being made constantly.
-  As such, Temple University supports an interdisciplinary approach to this field of study.
-keywords: 'Temple, neurosience program'
+  The field of neuroscience is constantly expanding and exciting advancements
+  are being made constantly. As such, Temple University supports an
+  interdisciplinary approach to this field of study.
+keywords: 'Temple, neuroscience'
 feature: true
-feature-image: media/hero_Neuroscience.png
+feature-image: media/hero.png
 ---
 
 ## Interdisciplinary Excellence in Neuroscience Teaching and Research

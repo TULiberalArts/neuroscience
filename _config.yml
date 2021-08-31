@@ -5,25 +5,25 @@ production: https://www.temple.edu
 url: https://www.temple.edu/neuroscience
 
 tagline: This is our life's work
-description: 'The field of neuroscience is constantly expanding and exciting advancements are being made constantly. Temple University supports an interdisciplinary approach to this field of study.'
-keywords: highered, university, philadelphia, Temple, neuroscience programs
+description: >-
+  'The field of neuroscience is constantly expanding and exciting advancements
+  are being made constantly. Temple University supports an interdisciplinary
+  approach to this field of study.'
+keywords: highered, university, philadelphia, Temple, neuroscience
 
-# Address
 address:
   building:
   room:
   street: 1801 North Broad Street
   city: Phialdelphia, PA 19122
 
-# University & College Information
 university:
   name: Temple University
   url: https://temple.edu/
 
-# Social Media
 social:
   facebook: templeu
-  twitter: 
+  twitter: TempleUniv
   instagram: TempleUniv
 
 # Global Site Config
@@ -33,11 +33,11 @@ sass:
   sass_dir: _sass
   style: compressed
 timezone: UTC
-collections:
-  pages:
-    title: Pages
-    output: true
-    layout: page
+# collections:
+#  pages:
+#    title: Pages
+#    output: true
+#    layout: page
 permalink: /:title
 
 # Jekyll Ignore
