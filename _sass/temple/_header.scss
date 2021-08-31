@@ -1,0 +1,681 @@
+header.tla-header {
+  font-family: 'opensans_regular', sans-serif;
+  overflow: visible;
+  padding-left: 0;
+
+  .modal {
+    white-space: normal;
+    font-size: 1.2em;
+    max-height: 85%;
+    background-color: #222;
+  }
+
+  .modal-row.row {
+    background-color: #222;
+  }
+
+  .header-row {
+    background-color: #222;
+    // font-family: "open-sans", Arial, sans-serif;
+    margin-bottom: 0;
+    // padding: 0.5em 0.1em;
+  }
+
+  .header-column {
+    padding: 0;
+  }
+
+  .cla-modal-ul {
+    li {
+      margin: 0.75em 0;
+      line-height: 1.4em;
+
+      a {
+        color: #fff;
+      }
+    }
+  }
+
+  nav.program-nav {
+    box-shadow: none;
+
+    ul {
+      font-weight: 400;
+
+      li {
+        padding-left: 1em;
+        padding-right: 1em;
+
+        &:first-of-type {
+          a {
+            border-left-width: 0;
+          }
+        }
+
+        a {
+          border-right-width: 0;
+          padding:0;
+
+          &:hover {
+            background-color: #222;
+            border-bottom: 10px solid $tu-cherry;
+          }
+        }
+      }
+
+      li.active {
+        height: 64px;
+        background-color: #222;
+        border-bottom: 10px solid $tu-cherry;
+      }
+    }
+  }
+
+  .program-nav {
+    a:hover {
+      text-decoration: none;
+    }
+
+    a:active {
+      text-decoration: none;
+    }
+
+    a {
+      height: 64px;
+      font-size: 1em;
+    }
+    background-color: #222;
+  }
+
+  .material-icons {
+    color: #fff;
+    font-size: 2em;
+  }
+
+  .button-collapse {
+    i {
+      color: #fff;
+      font-size: 2.2em;
+    }
+  }
+
+  .grid-column {
+    background-color: #888;
+  }
+
+  .sidenav {
+    font-size: 1.2em;
+    display: none;
+    position: fixed;
+    top: -14px;
+    height: 100%;
+    width: 250px;
+    padding: 25px;
+    font-size: 1.2em;
+    line-height: 2.5em;
+    background-color: $tu-cherry;
+    z-index: 999;
+
+    li.active {
+      a {
+        background-color: darken($tu-cherry, 10%);
+      }
+    }
+
+    li {
+      a {
+        color: #fff;
+      }
+
+      a.home-link {
+        i.material-icons {
+          color: #fff;
+        }
+      }
+
+      a:link {
+        background-color: #a41e35;
+      }
+
+      a:hover {
+        background-color: lighten($tu-cherry, 10%);
+      }
+    }
+  }
+
+  .row {
+    background-color: #222;
+    // font-family: "open-sans", Arial, sans-serif;
+    margin-bottom: 0;
+
+    .divider {
+      background-color: #222;
+      height: 0.5em;
+      width: 100%;
+    }
+
+    div.inner-row {
+      width: 100%;
+    }
+
+    .container {
+      background-color: inherit;
+
+      .logo {
+        float: left;
+        min-width: 120px;
+        line-height: 0;
+        margin-right: 2em;
+      }
+
+      .mast-container {
+        height: 100%;
+        white-space: nowrap;
+      }
+
+      .mast {
+        display: block;
+        white-space: normal;
+
+        .breadcrumbs {
+          margin-bottom: 0.3em;
+
+          a.breadcrumb {
+            color: #eceff1;
+            font-size: 0.8em;
+
+            &:before {
+              font-size: 1.5em;
+              margin: 0;
+            }
+          }
+        }
+
+        h1 {
+          font-family: "crimson text";
+          font-weight: 100;
+          color: #fff;
+          margin: 0.2em 0;
+          line-height: 1.3;
+          @media #{$medium-and-down} {
+            font-size: 2.2em;
+          }
+        }
+      }
+
+      .college-link-set {
+        display: block;
+        white-space: nowrap;
+        padding-top: 2em;
+        padding-right: 2em;
+        float: right;
+        text-align: right;
+        width: 100%;
+      }
+
+      .college-link {
+        display: inline-block;
+        padding-left: 3.2em;
+        text-align: center;
+
+        a {
+          color: #fff;
+          font-size: 0.8em;
+          font-weight: bold;
+        }
+      }
+
+      div.college-link-set-mobile {
+        width: 100%;
+
+        div.container {
+          width: 90%;
+        }
+      }
+
+      .college-link-set-mobile {
+        display: block;
+        white-space: wrap;
+        padding-top: 1em;
+        padding-right: 1em;
+      }
+
+      .college-link-mobile {
+        display: inline-block;
+        width: 3.2em;
+        padding-left: 0.5em;
+
+        a {
+          color: #fff;
+          font-size: 0.8em;
+          font-weight: bold;
+        }
+      }
+
+      .menu-link-mobile {
+        padding-left: 0;
+      }
+
+      .menu-link-mobile-text {
+        line-height: -3px;
+      }
+    }
+  }
+}
+
+.navbar-spacer {
+  background-color: #222;
+  height: 0.5em;
+  width: 100%;
+}
+@media only screen and (max-width: 480px) {
+  header.tla-header {
+    div.valign-wrapper {
+      width: 100%;
+    }
+
+    .breadcrumbs {
+      font-size: 0.85em;
+    }
+  }
+}
+@media only screen and (min-width: 602px) {
+  header.tla-header {
+    div.valign-wrapper {
+      width: 100%;
+    }
+
+    .breadcrumbs {
+      font-size: 1em;
+    }
+  }
+}
+//end tla-header
+// pay per view landing page header summer of 2018 @todo scale of h1 text
+
+header.ppv-header {
+  .row {
+    background-color: #222;
+    font-family: "open-sans", Arial, sans-serif;
+    margin-bottom: 0;
+
+    .container {
+      background-color: inherit;
+
+      .logo {
+        float: left;
+        min-width: 120px;
+        margin-right: 1em;
+        line-height: 0;
+      }
+
+      .mast {
+        .breadcrumbs {
+          margin-bottom: 0.3em;
+
+          a.breadcrumb {
+            color: #eceff1;
+            font-size: 0.8em;
+
+            &:before {
+              font-size: 1.5em;
+              margin: 0;
+            }
+          }
+        }
+
+        h1 {
+          font-family: "crimson text";
+          font-weight: 100;
+          color: #fff;
+          margin: 0.2em 0;
+          line-height: 1.3;
+          @media #{$medium-and-down} {
+            font-size: 2.2em;
+          }
+        }
+      }
+    }
+  }
+}
+//end ppv-header
+
+nav.university-nav {
+  color: $navbar-university-font-color;
+  background-color: $navbar-university-backgroud-color;
+  height: $navbar-university-height;
+  line-height: $navbar-university-height;
+  box-shadow: none;
+  border-bottom: 1px solid lightGray;
+
+  a {
+    color: $navbar-university-font-color;
+  }
+
+  a.university-title {
+    margin-left: -20px;
+    padding-top: 5px;
+    padding-bottom: 0;
+    height: 50px;
+  }
+
+  a {
+    @media #{$medium-and-down} {
+      font-size: 0.8rem!important;
+      padding-left: 0.5rem!important;
+      padding-right: 0.5rem!important;
+    }
+  }
+
+  .college-title {
+    font-weight: bold;
+    // line-height: 2.5em;
+    background: $tu-cherry;
+    color: white;
+    // margin-left: -1.25rem;
+    // letter-spacing: 0px;
+    &:hover {
+      background: darken($tu-cherry, 5%);
+    }
+
+    i.material-icons {
+      height: inherit;
+      line-height: 1rem;
+      vertical-align: middle;
+      transition: transform 100ms linear;
+    }
+    @media #{$large-and-up} {
+      // position: absolute;
+      // top: -2.85em;
+      // left: 250px;
+      // border-radius: 50px !important;
+      // background: none !important;
+      // color: #a41e35 !important;
+    }
+  }
+
+  form i.material-icons {
+    // font-size: 24px;
+    font-size: 1.25rem;
+    height: $navbar-university-height;
+    line-height: $navbar-university-height;
+  }
+  // Collapse button
+  .button-collapse {
+    height: $navbar-university-height;
+
+    i {
+      font-size: 2.5rem;
+      height: $navbar-university-height;
+      line-height: $navbar-university-height;
+    }
+  }
+  // Navbar Links
+  ul {
+    li {
+      &.active {
+        background-color: rgba(0,0,0,.1);
+      }
+    }
+
+    a {
+      font-size: $navbar-university-font-size;
+      color: $navbar-university-font-color;
+      padding: 0 15px;
+      @media #{$medium-and-down} {
+        padding: 0 12px;
+      }
+
+      &:hover {
+        background-color: rgba(0,0,0,.1);
+      }
+    }
+
+    &.left {
+      float: left;
+    }
+  }
+  // Navbar Search Form
+  .input-field {
+    overflow: hidden;
+
+    input {
+      transition: width 250ms ease;
+      font-size: 1rem;
+      margin-bottom: 0;
+      padding-right: 0;
+      padding-left: 2.75rem;
+      // padding-right: 40px;
+      padding-right: 0;
+      line-height: $navbar-university-height - 1px;
+      height: $navbar-university-height - 1px;
+      width: 0;
+      cursor: pointer;
+
+      &:active,
+      &:focus,
+      &:valid {
+        width: 130px;
+        cursor: text;
+        padding-right: 40px;
+      }
+    }
+
+    &:active input,
+    &:focus input {
+      width: 130px;
+      cursor: text;
+      padding-right: 40px;
+    }
+
+    label[for="search"] {
+      pointer-events: none;
+      -webkit-pointer-events: none;
+    }
+
+    label[for="submit"] {
+      // float: right;
+      // float: right;
+      margin-left: 170px;
+      border-radius: 60px;
+
+      i.material-icons {
+        border-radius: 50%;
+        background: $tu-cherry;
+        color: white;
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 10px;
+        box-shadow: 1px 1px 13px darkgrey;
+        cursor: pointer;
+      }
+    }
+
+    label {
+      &.active i {
+        color: $navbar-university-font-color;
+      }
+    }
+  }
+}
+// College Dropdown
+
+div.college-dropdown {
+  background: $tu-cherry;
+  color: white;
+  // padding: 1rem 0;
+  // margin-bottom: 2rem;
+  transition: padding 100ms ease, height 100ms ease-in, box-shadow 150ms ease;
+  height: 0;
+  overflow: hidden;
+  background: none;
+  // margin-bottom: -2em;
+  a {
+    color: white;
+    display: block;
+
+    &:active,
+    &:focus {
+      outline: 2px dotted white;
+    }
+  }
+
+  ul {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+}
+
+body.college-dropdown-is-open {
+  div.college-dropdown {
+    padding: 1rem 0;
+    height: auto;
+    background: $tu-cherry;
+    @extend .z-depth-1;
+    // margin-bottom: -1.35em;
+  }
+
+  i.college-droptown-toggle-arrow {
+    transform: rotateX(180deg);
+  }
+}
+// College Nav
+
+div.college-nav {
+  .container {
+    position: relative;
+
+    .row {
+      margin-top: 20px;
+    }
+  }
+
+  h1.program-title {
+    // margin: .25rem 0 .55rem 0;
+    font-size: 3rem;
+    display: inline-block;
+    @media #{$small-and-down} {
+      font-size: 2rem;
+      vertical-align: top;
+      margin-top: 1.5rem;
+    }
+  }
+
+  .program-logo {
+    img {
+      height: auto;
+      width: auto;
+      max-height: 3.5em;
+      max-width: 60vw;
+    }
+  }
+
+  .college-nav h1 {
+    margin: 0.25rem 0 0.55rem;
+    @media #{$medium-and-down} {
+      text-align: center;
+    }
+  }
+
+  .college-link {
+    text-align: center;
+    margin-top: 0.5rem;
+    display: inline-block;
+
+    a {
+      display: inline-block;
+      padding-top: 0.5em;
+
+      i.material-icons {
+        font-size: 24px;
+        margin-right: 0;
+      }
+    }
+  }
+
+  .nav-toggle-link {
+    cursor: pointer;
+    text-align: center;
+    margin-top: 0.75rem;
+    margin-right: 1.5rem;
+    padding-right: 1.5rem;
+    display: inline-block;
+    padding-bottom: 0.25rem;
+    border-right: 1px solid lightGray;
+    font-weight: bold;
+    @media #{$medium-and-up} {
+      display: none;
+    }
+  }
+}
+// Program Nav
+
+nav.program-nav ul {
+  overflow: hidden;
+  font-weight: bold;
+
+  [class^="mdi-"],
+  [class*="mdi-"],
+  i.material-icons,
+  i {
+    line-height: 64px;
+    height: 64px;
+  }
+
+  li.active {
+    background: rgba(0, 0, 0, 0.2);
+  }
+}
+@media #{$large-and-up} {
+  nav.program-nav ul {
+    // width: 100%;
+    display: flex;
+    width: calc(100% + 40px);
+    margin: 0 -20px;
+
+    li {
+      flex-grow: 1;
+      text-align: center;
+
+      a {
+        border-right: 1px solid transparentize(white, .5);
+      }
+
+      &:first-of-type a {
+        border-left: 1px solid transparentize(white, .5);
+      }
+    }
+  }
+}
+@media #{$small-and-down} {
+  nav.program-nav {
+    height: auto;
+
+    ul {
+      overflow: hidden;
+      height: auto;
+
+      li {
+        display: block;
+        font-weight: bold;
+        width: 100%;
+      }
+    }
+  }
+}
+// Nav Toggle
+@media #{$small-and-down} {
+  div.college-nav .college-link,
+  nav.program-nav {
+    display: none;
+  }
+
+  body.nav-is-open {
+    div.college-nav .college-link,
+    nav.program-nav {
+      display: block;
+    }
+  }
+}

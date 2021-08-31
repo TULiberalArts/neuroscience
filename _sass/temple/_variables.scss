@@ -1,0 +1,48 @@
+/* ==========================================================================
+   Materialize variable ovverides
+   ========================================================================== */
+
+/* 0. Basics
+   ========================================================================== */
+
+$title-font-family: "open-sans", Arial, sans-serif;
+$title-font-weight: bold;
+$heading-font-family: "open-sans", Arial, sans-serif;
+$heading-font-weight: bold;
+$body-font-family: "merriweather", Georgia, Times, serif;
+$content-font-family: "merriweather", Georgia, Times, serif;
+
+
+/* 1. Colors
+   ========================================================================== */
+
+$primary-color: $tu-cherry!default;
+$primary-color-light: $tu-bright-cherry!default;
+$primary-color-dark: $tu-slate!default;
+
+$secondary-color: $tu-charcoal!default;
+$success-color: $tu-olive!default;
+$error-color: $tu-alert!default;
+$link-color: $tu-cherry!default;
+
+
+/* 13a. University Navigation Bar
+   ========================================================================== */
+
+$navbar-university-height: 50px;
+$navbar-university-height-mobile: 50px;
+$navbar-university-font-size: .85rem;
+$navbar-university-font-color: #222222;
+$navbar-university-backgroud-color: $tu-light-gray;
+$navbar-university-brand-font-size: 2.1rem;
+
+
+/* 21. Footer
+   ========================================================================== */
+
+$footer-bg-color: $tu-charcoal;
+
+/* Other Variables (not in Materialize)
+   ========================================================================== */
+
+$content-max-width: 960px;

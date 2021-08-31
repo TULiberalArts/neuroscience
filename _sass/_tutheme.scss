@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+// Temple Variables
+@import "temple/colors";
+@import "temple/variables";
+
+// Per-Site Variables
+// @import "variables";
+
+// Materialize
+@import "materialize/materialize";
+
+// Temple Materialize Overrides
+@import "temple/overrides";
+
+// Grid Extensions
+@import "temple/grid";
+
+// Temple Site Styles
+@import "temple/header";
+@import "temple/page";
+@import "temple/content";
+@import "temple/footer";

@@ -1,0 +1,24 @@
+footer.page-footer {
+  margin-top: 0;
+  .taller {
+    font-family: "open-sans-condensed", Impact, sans-serif;
+    font-size: 1.4rem;
+    line-height: .85rem;
+  }
+  a {
+    display: block;
+    &:focus, &:active {
+      outline: 2px dotted white;
+    }
+  }
+  .footer-copyright {
+    background-color: rgba(0,0,0,.75);
+  }
+  .vector-icons {
+    width: 14px;
+    height: 14px;
+  }
+  .material-icons, .vector-icons {
+    margin-right: .25em;
+  }
+}
